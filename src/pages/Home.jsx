@@ -8,6 +8,7 @@ import Services from "../components/organisms/Services";
 import Testimonials from "../components/organisms/Testimonials";
 import Agents from "../components/organisms/Agents";
 import Newsletter from "../components/organisms/Newsletter";
+import Footer from "../components/organisms/Footer";
 
 function Home() {
     return (
@@ -21,6 +22,7 @@ function Home() {
             <Agents />
             <Testimonials />
             <Newsletter />
+            <Footer />
         </main>
     );
 }
