@@ -30,7 +30,7 @@ function Agents() {
     ];
 
     return (
-        <section className="relative overflow-hidden bg-[#f5faff] px-5 py-20 lg:px-10 lg:py-24">
+        <section className="relative overflow-hidden bg-[#f5faff] px-5 py-12 lg:px-10 lg:py-16">
 
             {/* DECORATIVE CIRCLE */}
             <div className="absolute -right-16 -top-20 h-40 w-40 rounded-full bg-violet-600 sm:h-48 sm:w-48" />

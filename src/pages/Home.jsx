@@ -9,6 +9,7 @@ import Testimonials from "../components/organisms/Testimonials";
 import Agents from "../components/organisms/Agents";
 import Newsletter from "../components/organisms/Newsletter";
 import Footer from "../components/organisms/Footer";
+import PropertyFeatures from "../components/organisms/PropertyFeatures";
 
 function Home() {
     return (
@@ -19,6 +20,7 @@ function Home() {
             <FeaturedHomes />
             <About />
             <Services />
+            <PropertyFeatures />
             <Agents />
             <Testimonials />
             <Newsletter />
