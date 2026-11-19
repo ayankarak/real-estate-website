@@ -14,7 +14,7 @@ function Navbar() {
 
                 <Logo light />
 
-                <div className="hidden lg:block [&_a]:text-white [&_a]:text-xs [&_a]:hover:text-emerald-300">
+                <div className="hidden lg:ml-auto lg:mr-12 lg:block [&_a]:text-white [&_a]:text-xs [&_a]:hover:text-emerald-300">
                     <NavLinks />
                 </div>
 
