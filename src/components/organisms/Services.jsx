@@ -31,7 +31,7 @@ function Services() {
     ];
 
     return (
-        <section className="bg-[#f0faff] px-5 py-20 lg:px-10 lg:py-24">
+        <section id="services" className="bg-[#f0faff] px-5 py-20 lg:px-10 lg:py-24">
             <div className="mx-auto grid max-w-7xl items-center gap-14 lg:grid-cols-2">
 
                 {/* LEFT IMAGE */}

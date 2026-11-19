@@ -3,6 +3,7 @@ const navLinks = [
     { name: "Home", href: "#home" },
     { name: "Properties", href: "#properties" },
     { name: "About", href: "#about" },
+    { name: "Services", href: "#services" },
     { name: "Agents", href: "#agents" },
     { name: "Contact", href: "#contact" },
 ];
@@ -24,7 +25,7 @@ function NavLinks({
                     key={link.name}
                     href={link.href}
                     onClick={onLinkClick}
-                    className="text-sm font-medium text-slate-700 transition hover:text-emerald-600"
+                    className="text-sm font-medium text-slate-700 transition duration-300 hover:text-emerald-600"
                 >
                     {link.name}
                 </a>

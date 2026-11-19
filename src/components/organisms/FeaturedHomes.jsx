@@ -44,7 +44,7 @@ function FeaturedHomes() {
     };
 
     return (
-        <section className="bg-white px-5 pt-12 pb-8 lg:px-10 lg:pt-14 lg:pb-10">
+        <section id="properties" className="bg-white px-5 pt-12 pb-8 lg:px-10 lg:pt-14 lg:pb-10">
             <div className="mx-auto max-w-7xl">
 
                 {/* CATEGORY NAVIGATION */}

@@ -37,7 +37,7 @@ function Footer() {
     ];
 
     return (
-        <footer className="bg-[#17264f] text-white">
+        <footer id="contact" className="bg-[#17264f] text-white">
 
             {/* MAIN FOOTER */}
             <div className="mx-auto grid max-w-7xl grid-cols-1 gap-12 px-5 py-16 sm:grid-cols-2 lg:grid-cols-4 lg:px-10 lg:py-20">

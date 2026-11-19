@@ -1,2 +1,73 @@
 
 @import "tailwindcss";
+
+
+
+/* HERO ANIMATIONS */
+
+@keyframes heroFadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes heroSlideUp {
+    from {
+        opacity: 0;
+        transform: translateY(45px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes navbarFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-hero-fade-up {
+    animation: heroFadeUp 0.8s ease-out both;
+}
+
+.animate-hero-slide-up {
+    animation: heroSlideUp 0.9s ease-out both;
+}
+
+.animate-navbar-in {
+    animation: navbarFadeIn 0.9s ease-out both;
+}
+
+/* SMOOTH NAVIGATION */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 20px;
+}
+
+/* REDUCED MOTION ACCESSIBILITY */
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    .animate-hero-fade-up,
+    .animate-hero-slide-up,
+    .animate-navbar-in {
+        animation: none;
+    }
+}

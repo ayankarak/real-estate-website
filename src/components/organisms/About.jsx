@@ -31,7 +31,7 @@ function About() {
     ];
 
     return (
-        <section className="overflow-hidden bg-white px-5 pt-10 pb-16 lg:px-10 lg:pt-12 lg:pb-20">
+        <section id="about" className="overflow-hidden bg-white px-5 pt-10 pb-16 lg:px-10 lg:pt-12 lg:pb-20">
             <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-2">
 
                 {/* LEFT SIDE - INTERIOR IMAGE */}
