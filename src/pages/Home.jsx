@@ -1,4 +1,3 @@
-
 import Navbar from "../components/organisms/Navbar";
 import Hero from "../components/organisms/Hero";
 import FeaturedHomes from "../components/organisms/FeaturedHomes";
